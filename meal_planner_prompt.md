@@ -2,6 +2,9 @@
 
 ## USER INPUTS (Edit these sections)
 
+### Meal Prep Settings
+- **Servings to Make:** 4
+
 ### Dietary Requirements
 - **Diet Type:** Vegan, gluten-free
 - **Special Foods Allowed:** Patagonia Provisions Mussels
@@ -53,7 +56,7 @@ Create vegan, gluten-free, incredibly healthy daily meal plans for lunch, dinner
 
 ### Output Format
 ```markdown
-## Ingredients (4 servings total)
+## Ingredients ([X] servings total)
 
 **Staples**
 - [ ] Ingredient with quantity
@@ -70,13 +73,13 @@ Create vegan, gluten-free, incredibly healthy daily meal plans for lunch, dinner
 
 ## Lunch – [Meal Name]
 **Instructions**
-- Step-by-step cooking for 4 servings
+- Step-by-step cooking for [X] servings
 - Include exact quantities each time ingredient is mentioned
 - Optimize cooking order (preheat ovens, prep while cooking, etc.)
 
 ## Dinner – [Meal Name]
 **Instructions**
-- Step-by-step cooking for 4 servings
+- Step-by-step cooking for [X] servings
 - Include exact quantities and smart timing
 
 ## [Optional Snack Name]
@@ -96,4 +99,4 @@ Create vegan, gluten-free, incredibly healthy daily meal plans for lunch, dinner
 - Prioritize hitting calorie target exactly (within 50 calories)
 - Ensure protein minimum is met
 - Create practical, cookable meals with clear instructions
-- Scale all recipes to 4 servings for meal prep efficiency
+- Scale all recipes to match the specified serving count for meal prep efficiency
