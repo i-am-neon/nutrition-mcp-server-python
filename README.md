@@ -2,7 +2,7 @@
 
 ## Prerequisites
 - Python 3.8+ (pre-installed on most systems)
-- USDA API key (free): https://fdc.nal.usda.gov/api-guide.html
+- USDA API key (free): https://fdc.nal.usda.gov/api-key-signup
 
 ## Installation
 
