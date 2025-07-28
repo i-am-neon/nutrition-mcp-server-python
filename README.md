@@ -6,14 +6,14 @@
 
 ## Installation
 
-1. **Download files** to a folder called `nutrition-mcp-server`
+1. **Download or clone the repo**
 
 2. **Create virtual environment and install:**
+Navigate to the folder and run:
 ```bash
-cd nutrition-mcp-server
 python3 -m venv nutrition-env
 source nutrition-env/bin/activate
-pip install mcp requests
+pip install -r requirements.txt
 ```
 
 3. **Test the server:**
